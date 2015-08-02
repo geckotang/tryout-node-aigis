@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "guide": "aigis aigis_config.yml",
+    "server": "npm run guide && node app.js"
+  },
+  "dependencies": {
+    "express": "^4.13.2",
+    "node-aigis": "pxgrid/aigis",
+    "serve-index": "^1.7.2"
+  }
+}

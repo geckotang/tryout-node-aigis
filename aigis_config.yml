@@ -1,0 +1,40 @@
+name: OpenHouse
+source:
+  - ./scss/style.scss
+format: yaml
+dest: ./htdocs/styleguide
+dependencies: 
+  - ./styleguide_assets/assets
+template: ./styleguide_assets/template
+timestamp_format: YYYY/MM/DD/ HH:mm
+highlight_theme: dracula
+md_class: 
+  heading:
+    - sg-heading
+  list:
+    - sg-list
+  listitem:
+    - sg-list__item
+  hr:
+    - sg-hr
+  blockquote:
+    - sg-blockquote
+  image:
+    - sg-img
+  link:
+    - sg-link
+  paragraph:
+    - sg-p
+  table:
+    - sg-table
+  tablerow:
+    - sg-table__row
+  tablecell:
+    - sg-table__cell
+inject:
+  - html
+  - jade
+  - js
+  - coffee
+highlight: true
+index: ./README.md
