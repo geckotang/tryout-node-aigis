@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "express": "^4.13.2",
-    "node-aigis": "pxgrid/aigis",
+    "node-aigis": "geckotang/aigis",
     "serve-index": "^1.7.2"
   }
 }
